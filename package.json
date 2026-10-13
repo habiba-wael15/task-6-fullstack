@@ -1,0 +1,33 @@
+{
+  "name": "saiket-task-6-fullstack",
+  "version": "1.0.0",
+  "description": "Full Stack User Management System with React, Node.js, Express, and Microsoft SQL Server for Saiket Systems Internship",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "start": "npm --prefix server start",
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "build": "npm --prefix client run build",
+    "test": "npm --prefix server test",
+    "test:unit": "npm --prefix server run test:unit",
+    "test:api": "npm --prefix server run test:api",
+    "test:integration": "npm --prefix server run test:integration",
+    "test:all": "npm --prefix server run test:all"
+  },
+  "keywords": [
+    "saiket-systems",
+    "react",
+    "vite",
+    "nodejs",
+    "express",
+    "mssql",
+    "sql-server",
+    "full-stack",
+    "crud"
+  ],
+  "author": "Habiba Wael",
+  "license": "ISC"
+}
+
